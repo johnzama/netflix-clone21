@@ -1,0 +1,23 @@
+/* src/styles/styles.css */
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 200px)); /* Adjusted minimum and maximum sizes */
+  gap: 15px;
+  padding: 20px;
+}
+
+.movie-item {
+  text-align: center;
+}
+
+.movie-item img {
+  width: 100%;
+  max-height: 300px; /* Restrict maximum height for consistent sizing */
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.movie-item img:hover {
+  transform: scale(1.05); /* Enlarge the image on hover */
+}
+

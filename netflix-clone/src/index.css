@@ -1,0 +1,128 @@
+/* Import slick-carousel styles for the carousel */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #141414;
+  color: #fff;
+}
+
+h1 {
+  margin: 20px;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #111;
+}
+
+.navbar-logo img {
+  height: 30px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar form {
+  display: flex;
+  gap: 5px;
+}
+
+.navbar input {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.navbar button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.navbar button:hover {
+  background-color: #f40612;
+}
+
+/* Carousel Styles */
+.slick-slide img {
+  border-radius: 10px;
+  margin: auto;
+}
+
+.slick-dots li button:before {
+  color: #fff;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #fff;
+}
+
+/* Movie Grid Styles */
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
+  gap: 15px;
+  padding: 20px;
+}
+
+.movie-item {
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.movie-item img {
+  width: 100%;
+  max-height: 300px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.movie-item img:hover {
+  transform: scale(1.05);
+}
+
+/* Button Styles */
+button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+button:hover {
+  background-color: #f40612;
+}
+
+/* Search Results Page Styles */
+.search-results {
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.search-results h1 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+
